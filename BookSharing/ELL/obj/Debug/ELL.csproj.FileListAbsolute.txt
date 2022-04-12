@@ -3,3 +3,8 @@ D:\11Semester\BookSharing-API-SOLID\BookSharing\ELL\bin\Debug\ELL.pdb
 D:\11Semester\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.csproj.CoreCompileInputs.cache
 D:\11Semester\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.dll
 D:\11Semester\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.pdb
+P:\BookSharing-API-SOLID\BookSharing\ELL\bin\Debug\ELL.dll
+P:\BookSharing-API-SOLID\BookSharing\ELL\bin\Debug\ELL.pdb
+P:\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.csprojAssemblyReference.cache
+P:\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.dll
+P:\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.pdb
