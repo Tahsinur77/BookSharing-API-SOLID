@@ -28,5 +28,9 @@ namespace DAL
         {
             return new OrderRepo(db);
         }
+        public static IRepository<Shop, int> ShopDataAccess()
+        {
+            return new ShopRepo(db);
+        }
     }
 }
