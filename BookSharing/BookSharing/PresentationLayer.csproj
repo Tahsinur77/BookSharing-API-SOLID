@@ -109,6 +109,10 @@
       <Project>{e0555b95-bbc0-4c61-a8aa-794451c5ad8c}</Project>
       <Name>BLL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ELL\ELL.csproj">
+      <Project>{3ee710f8-2c8c-4d34-8aa7-1dc0a996d969}</Project>
+      <Name>ELL</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
