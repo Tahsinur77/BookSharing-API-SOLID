@@ -3,3 +3,4 @@ D:\11Semester\BookSharing-API-SOLID\BookSharing\ELL\bin\Debug\ELL.pdb
 D:\11Semester\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.csproj.CoreCompileInputs.cache
 D:\11Semester\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.dll
 D:\11Semester\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.pdb
+D:\11Semester\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.csproj.AssemblyReference.cache
