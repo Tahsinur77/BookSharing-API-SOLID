@@ -23,5 +23,6 @@ namespace DAL.Codefirst.Database
         public DbSet<OrderDetails> OrderDetails { set; get; }
         public DbSet<Sell> Sells { set; get; }
         public DbSet<SellerDetails> SellerDetails { set; get; }
+        public DbSet<TokenAccess> TokenAccesses { set; get; }
     }
 }

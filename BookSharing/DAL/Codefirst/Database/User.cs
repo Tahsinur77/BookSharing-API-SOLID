@@ -14,6 +14,7 @@ namespace DAL.Codefirst.Database
         {
             this.Shops = new HashSet<Shop>();
             this.BookDetails = new HashSet<BookDetails>();
+            this.TokenAccesses = new HashSet<TokenAccess>();
         }
         [Key]
         public int Id { get; set; }
@@ -33,5 +34,6 @@ namespace DAL.Codefirst.Database
         public string Password { get; set; }
         public virtual ICollection<Shop> Shops { get; set; }
         public virtual ICollection<BookDetails> BookDetails { get; set; }
+        public virtual ICollection<TokenAccess> TokenAccesses { get; set; }
     }
 }

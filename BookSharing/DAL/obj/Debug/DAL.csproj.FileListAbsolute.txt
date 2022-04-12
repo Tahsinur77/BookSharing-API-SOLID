@@ -16,3 +16,4 @@ D:\11Semester\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.Ord
 D:\11Semester\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.OrderUpdate.resources
 D:\11Semester\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.sell.resources
 D:\11Semester\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.sellerDetails.resources
+D:\11Semester\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.tokenAccess.resources

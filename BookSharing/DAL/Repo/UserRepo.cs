@@ -17,27 +17,37 @@ namespace DAL.Repo
         }
         public bool Add(User obj)
         {
-            throw new NotImplementedException();
+            db.Users.Add(obj);
+            if (db.SaveChanges() != 0) return true;
+            return false;
         }
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            var n = db.Users.FirstOrDefault(x => x.Id == id);
+            db.Users.Remove(n);
+
+            if (db.SaveChanges() != 0) return true;
+            return false;
         }
 
         public bool Edit(User obj)
         {
-            throw new NotImplementedException();
+            var old = db.Users.FirstOrDefault(x => x.Id == obj.Id);
+            db.Entry(old).CurrentValues.SetValues(obj);
+
+            if (db.SaveChanges() != 0) return true;
+            return false;
         }
 
         public User Get(int id)
         {
-            throw new NotImplementedException();
+            return db.Users.FirstOrDefault(x => x.Id == id);
         }
 
         public List<User> Get()
         {
-            throw new NotImplementedException();
+            return db.Users.ToList();
         }
     }
 }

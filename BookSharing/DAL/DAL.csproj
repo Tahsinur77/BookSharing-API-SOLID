@@ -57,6 +57,7 @@
     <Compile Include="Codefirst\Database\SellerDetails.cs" />
     <Compile Include="Codefirst\Database\Shop.cs" />
     <Compile Include="Codefirst\Database\ShopChangeRequest.cs" />
+    <Compile Include="Codefirst\Database\TokenAccess.cs" />
     <Compile Include="Codefirst\Database\User.cs" />
     <Compile Include="DataAccessFactory.cs" />
     <Compile Include="Interface\IRepository.cs" />
@@ -87,6 +88,10 @@
     <Compile Include="Migrations\202204120518141_sellerDetails.cs" />
     <Compile Include="Migrations\202204120518141_sellerDetails.Designer.cs">
       <DependentUpon>202204120518141_sellerDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204121511305_tokenAccess.cs" />
+    <Compile Include="Migrations\202204121511305_tokenAccess.Designer.cs">
+      <DependentUpon>202204121511305_tokenAccess.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -120,6 +125,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202204120518141_sellerDetails.resx">
       <DependentUpon>202204120518141_sellerDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204121511305_tokenAccess.resx">
+      <DependentUpon>202204121511305_tokenAccess.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
