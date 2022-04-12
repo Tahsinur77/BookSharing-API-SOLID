@@ -67,3 +67,12 @@ D:\11Semester\BookSharing-API-SOLID\BookSharing\BookSharing\obj\Debug\Presentati
 D:\11Semester\BookSharing-API-SOLID\BookSharing\BookSharing\obj\Debug\PresentationLayer.csproj.CopyComplete
 D:\11Semester\BookSharing-API-SOLID\BookSharing\BookSharing\obj\Debug\BookSharing.dll
 D:\11Semester\BookSharing-API-SOLID\BookSharing\BookSharing\obj\Debug\BookSharing.pdb
+D:\11Semester\BookSharing-API-SOLID\BookSharing\BookSharing\bin\ELL.dll
+D:\11Semester\BookSharing-API-SOLID\BookSharing\BookSharing\bin\DAL.dll
+D:\11Semester\BookSharing-API-SOLID\BookSharing\BookSharing\bin\AutoMapper.dll
+D:\11Semester\BookSharing-API-SOLID\BookSharing\BookSharing\bin\EntityFramework.dll
+D:\11Semester\BookSharing-API-SOLID\BookSharing\BookSharing\bin\ELL.pdb
+D:\11Semester\BookSharing-API-SOLID\BookSharing\BookSharing\bin\DAL.pdb
+D:\11Semester\BookSharing-API-SOLID\BookSharing\BookSharing\bin\DAL.dll.config
+D:\11Semester\BookSharing-API-SOLID\BookSharing\BookSharing\bin\AutoMapper.xml
+D:\11Semester\BookSharing-API-SOLID\BookSharing\BookSharing\bin\EntityFramework.xml

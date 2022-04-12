@@ -10,3 +10,7 @@ D:\11Semester\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.csproj.CoreCom
 D:\11Semester\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.csproj.CopyComplete
 D:\11Semester\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.dll
 D:\11Semester\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.pdb
+D:\11Semester\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\AutoMapper.dll
+D:\11Semester\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\ELL.dll
+D:\11Semester\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\ELL.pdb
+D:\11Semester\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\AutoMapper.xml
