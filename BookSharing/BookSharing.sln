@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookSharing", "BookSharing\BookSharing.csproj", "{E66D7B7E-2472-4D0C-837E-0F209CCC8993}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLayer", "BookSharing\PresentationLayer.csproj", "{E66D7B7E-2472-4D0C-837E-0F209CCC8993}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{E0555B95-BBC0-4C61-A8AA-794451C5AD8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{83F4BE2E-F75F-4D9A-8468-FD2B4B783CF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{E66D7B7E-2472-4D0C-837E-0F209CCC8993}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E66D7B7E-2472-4D0C-837E-0F209CCC8993}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E66D7B7E-2472-4D0C-837E-0F209CCC8993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0555B95-BBC0-4C61-A8AA-794451C5AD8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0555B95-BBC0-4C61-A8AA-794451C5AD8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0555B95-BBC0-4C61-A8AA-794451C5AD8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0555B95-BBC0-4C61-A8AA-794451C5AD8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F4BE2E-F75F-4D9A-8468-FD2B4B783CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F4BE2E-F75F-4D9A-8468-FD2B4B783CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F4BE2E-F75F-4D9A-8468-FD2B4B783CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F4BE2E-F75F-4D9A-8468-FD2B4B783CF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

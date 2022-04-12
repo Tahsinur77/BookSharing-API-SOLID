@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>83f4be2e-f75f-4d9a-8468-fd2b4b783cf0</ProjectGuid>
+    <ProjectGuid>{83F4BE2E-F75F-4D9A-8468-FD2B4B783CF0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DAL</RootNamespace>
@@ -31,24 +31,90 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    
-    
-    <Reference Include="Microsoft.CSharp"/>
-    
-    <Reference Include="System.Data"/>
-    
-    <Reference Include="System.Net.Http"/>
-    
-    <Reference Include="System.Xml"/>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Codefirst\Database\Author.cs" />
+    <Compile Include="Codefirst\Database\Book.cs" />
+    <Compile Include="Codefirst\Database\BookDetails.cs" />
+    <Compile Include="Codefirst\Database\BookSharingContext.cs" />
+    <Compile Include="Codefirst\Database\Order.cs" />
+    <Compile Include="Codefirst\Database\OrderDetails.cs" />
+    <Compile Include="Codefirst\Database\Sell.cs" />
+    <Compile Include="Codefirst\Database\SellerDetails.cs" />
+    <Compile Include="Codefirst\Database\Shop.cs" />
+    <Compile Include="Codefirst\Database\ShopChangeRequest.cs" />
+    <Compile Include="Codefirst\Database\User.cs" />
+    <Compile Include="Migrations\202204120432004_ForeignKey.cs" />
+    <Compile Include="Migrations\202204120432004_ForeignKey.Designer.cs">
+      <DependentUpon>202204120432004_ForeignKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204120441414_UpdateFk1.cs" />
+    <Compile Include="Migrations\202204120441414_UpdateFk1.Designer.cs">
+      <DependentUpon>202204120441414_UpdateFk1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204120450406_shopChangeReq.cs" />
+    <Compile Include="Migrations\202204120450406_shopChangeReq.Designer.cs">
+      <DependentUpon>202204120450406_shopChangeReq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204120503122_Order.cs" />
+    <Compile Include="Migrations\202204120503122_Order.Designer.cs">
+      <DependentUpon>202204120503122_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204120508206_OrderUpdate.cs" />
+    <Compile Include="Migrations\202204120508206_OrderUpdate.Designer.cs">
+      <DependentUpon>202204120508206_OrderUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204120513266_sell.cs" />
+    <Compile Include="Migrations\202204120513266_sell.Designer.cs">
+      <DependentUpon>202204120513266_sell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204120518141_sellerDetails.cs" />
+    <Compile Include="Migrations\202204120518141_sellerDetails.Designer.cs">
+      <DependentUpon>202204120518141_sellerDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202204120432004_ForeignKey.resx">
+      <DependentUpon>202204120432004_ForeignKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204120441414_UpdateFk1.resx">
+      <DependentUpon>202204120441414_UpdateFk1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204120450406_shopChangeReq.resx">
+      <DependentUpon>202204120450406_shopChangeReq.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204120503122_Order.resx">
+      <DependentUpon>202204120503122_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204120508206_OrderUpdate.resx">
+      <DependentUpon>202204120508206_OrderUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204120513266_sell.resx">
+      <DependentUpon>202204120513266_sell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204120518141_sellerDetails.resx">
+      <DependentUpon>202204120518141_sellerDetails.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
- </Project>
+</Project>
