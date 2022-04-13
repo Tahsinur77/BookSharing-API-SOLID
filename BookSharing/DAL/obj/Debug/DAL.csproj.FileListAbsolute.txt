@@ -17,3 +17,22 @@ D:\11Semester\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.Ord
 D:\11Semester\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.sell.resources
 D:\11Semester\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.sellerDetails.resources
 D:\11Semester\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.tokenAccess.resources
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\DAL.dll.config
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\DAL.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\DAL.pdb
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\EntityFramework.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\EntityFramework.xml
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.ForeignKey.resources
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.UpdateFk1.resources
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.shopChangeReq.resources
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.Order.resources
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.OrderUpdate.resources
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.sell.resources
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.sellerDetails.resources
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.tokenAccess.resources
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csproj.CopyComplete
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.pdb
