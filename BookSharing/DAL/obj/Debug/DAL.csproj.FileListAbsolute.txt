@@ -22,7 +22,6 @@ P:\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\DAL.dll
 P:\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\DAL.pdb
 P:\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\EntityFramework.dll
 P:\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\EntityFramework.xml
-P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
 P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.ForeignKey.resources
 P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.UpdateFk1.resources
 P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.shopChangeReq.resources
