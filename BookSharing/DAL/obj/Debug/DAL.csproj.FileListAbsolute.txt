@@ -36,3 +36,22 @@ F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csproj.
 F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csproj.CopyComplete
 F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.dll
 F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.pdb
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\DAL.dll.config
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\DAL.dll
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\DAL.pdb
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\EntityFramework.dll
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\EntityFramework.xml
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.ForeignKey.resources
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.UpdateFk1.resources
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.shopChangeReq.resources
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.Order.resources
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.OrderUpdate.resources
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.sell.resources
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.sellerDetails.resources
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.tokenAccess.resources
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csproj.CopyComplete
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.dll
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.pdb

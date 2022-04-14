@@ -30,3 +30,19 @@ F:\ASP final project\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.csproj.
 F:\ASP final project\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.csproj.CopyComplete
 F:\ASP final project\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.dll
 F:\ASP final project\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.pdb
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\BLL.dll
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\BLL.pdb
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\AutoMapper.dll
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\DAL.dll
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\ELL.dll
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\EntityFramework.dll
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\DAL.pdb
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\DAL.dll.config
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\ELL.pdb
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\AutoMapper.xml
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\EntityFramework.xml
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.csproj.CopyComplete
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.dll
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.pdb

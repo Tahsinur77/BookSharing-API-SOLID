@@ -9,3 +9,9 @@ F:\ASP final project\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.csproj.
 F:\ASP final project\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.csproj.CoreCompileInputs.cache
 F:\ASP final project\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.dll
 F:\ASP final project\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.pdb
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\ELL\bin\Debug\ELL.dll
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\ELL\bin\Debug\ELL.pdb
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.csproj.AssemblyReference.cache
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.csproj.CoreCompileInputs.cache
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.dll
+H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.pdb
