@@ -11,7 +11,7 @@ namespace BookSharing.Controllers
 {
     public class ShopChangeRequestController : ApiController
     {
-        [Route("api/Shop/Add")]
+        [Route("api/ShopChange/Add")]
         [HttpPost]
         public HttpResponseMessage Add(ShopChangeRequestModel shopChangeRequstModel)
         {
@@ -25,7 +25,7 @@ namespace BookSharing.Controllers
             return Request.CreateResponse(HttpStatusCode.BadRequest, ModelState);
         }
 
-        [Route("api/Shop/list")]
+        [Route("api/ShopChange/list")]
         [HttpGet]
         public HttpResponseMessage Get()
         {
@@ -33,7 +33,7 @@ namespace BookSharing.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, list);
         }
 
-        [Route("api/ShopDetails/{id}")]
+        [Route("api/ShopChange/{id}")]
         [HttpGet]
         public HttpResponseMessage Get(int id)
         {
@@ -41,7 +41,7 @@ namespace BookSharing.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, list);
         }
 
-        [Route("api/ShopDetails/Edit")]
+        [Route("api/ShopChange/Edit")]
         [HttpPost]
         public HttpResponseMessage Edit(ShopChangeRequestModel shopDetails)
         {
@@ -54,7 +54,7 @@ namespace BookSharing.Controllers
             return Request.CreateResponse(HttpStatusCode.BadRequest, ModelState);
         }
 
-        [Route("api/ShopDetails/Delete/{id}")]
+        [Route("api/ShopChange/Delete/{id}")]
         [HttpDelete]
         public HttpResponseMessage Delete(int id)
         {
