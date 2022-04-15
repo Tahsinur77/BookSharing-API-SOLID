@@ -24,9 +24,14 @@ namespace DAL
         {
             return new BookRepo(db);
         }
-        public static IRepository<Order,int> OrderDataAccess()
+        public static IRepository<Order, int> OrderDataAccess()
         {
             return new OrderRepo(db);
+        }
+
+        public static IRepository<Shop, int> ShopDataAccess()
+        {
+            return new ShopRepo(db);
         }
 
         public static IRepository<SellerDetails, int> SellerDetailsDataAccess()
@@ -36,6 +41,10 @@ namespace DAL
         public static IRepository<ShopChangeRequest, int> ShopChangeRequestDataAccess()
         {
             return new ShopChangeRquestRepo(db);
+        }
+        public static ISearch<User> UserDataSearch()
+        {
+            return new UserRepo(db);
         }
     }
 }
