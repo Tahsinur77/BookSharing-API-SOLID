@@ -14,6 +14,7 @@ D:\11Semester\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\AutoMapper.dll
 D:\11Semester\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\ELL.dll
 D:\11Semester\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\ELL.pdb
 D:\11Semester\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\AutoMapper.xml
+<<<<<<< HEAD
 P:\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\BLL.dll
 P:\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\BLL.pdb
 P:\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\AutoMapper.dll
@@ -29,3 +30,21 @@ P:\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.csprojAssemblyReference.c
 P:\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.csproj.CopyComplete
 P:\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.dll
 P:\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.pdb
+=======
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\BLL.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\BLL.pdb
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\AutoMapper.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\DAL.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\ELL.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\EntityFramework.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\DAL.pdb
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\DAL.dll.config
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\ELL.pdb
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\AutoMapper.xml
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BLL\bin\Debug\EntityFramework.xml
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.csproj.CopyComplete
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BLL\obj\Debug\BLL.pdb
+>>>>>>> dac6b5cc234ab10dba87f1959a501d4442a1b44b

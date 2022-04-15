@@ -9,15 +9,15 @@ using System.Web.Http;
 
 namespace BookSharing.Controllers
 {
-    public class UserController : ApiController
+    public class SellerDetailsController : ApiController
     {
-        [Route("api/User/Add")]
+        [Route("api/SellerDetails/Add")]
         [HttpPost]
-        public HttpResponseMessage Add(UserModel user)
+        public HttpResponseMessage Add(SellerDetailsModel sellerDetails)
         {
             if (ModelState.IsValid)
             {
-                var flag = UserService.Add(user);
+                var flag = SellerDetailsService.Add(sellerDetails);
 
                 if (flag) return Request.CreateResponse(HttpStatusCode.OK, "Added");
                 else return Request.CreateResponse(HttpStatusCode.OK, "Not Added");
@@ -25,51 +25,43 @@ namespace BookSharing.Controllers
             return Request.CreateResponse(HttpStatusCode.BadRequest, ModelState);
         }
 
-        [Route("api/User/list")]
+        [Route("api/SellerDetails/list")]
         [HttpGet]
         public HttpResponseMessage Get()
         {
-            var list = UserService.Get();
+            var list = SellerDetailsService.Get();
             return Request.CreateResponse(HttpStatusCode.OK, list);
         }
 
-        [Route("api/User/{id}")]
+        [Route("api/SellerDetails/{id}")]
         [HttpGet]
         public HttpResponseMessage Get(int id)
         {
-            var list = UserService.Get(id);
+            var list = SellerDetailsService.Get(id);
             return Request.CreateResponse(HttpStatusCode.OK, list);
         }
 
-        [Route("api/User/Edit")]
+        [Route("api/SellerDetails/Edit")]
         [HttpPost]
-        public HttpResponseMessage Edit(UserModel user)
+        public HttpResponseMessage Edit(SellerDetailsModel sellerDetails)
         {
             if (ModelState.IsValid)
             {
-                var flag = UserService.Edit(user);
+                var flag = SellerDetailsService.Edit(sellerDetails);
                 if (flag) return Request.CreateResponse(HttpStatusCode.OK, "Edited");
                 else return Request.CreateResponse(HttpStatusCode.OK, "Not Edited");
             }
             return Request.CreateResponse(HttpStatusCode.BadRequest, ModelState);
         }
 
-        [Route("api/User/Delete/{id}")]
+        [Route("api/SellerDetails/Delete/{id}")]
         [HttpDelete]
         public HttpResponseMessage Delete(int id)
         {
-            var flag = UserService.Delete(id);
+            var flag = SellerDetailsService.Delete(id);
             if (flag) return Request.CreateResponse(HttpStatusCode.OK, "Deleted");
             else return Request.CreateResponse(HttpStatusCode.OK, "Not Delete");
         }
-        [Route("api/User/Search")]
-        [HttpPost]
-        public HttpResponseMessage Search(SearchModel search)
-        {
-            var list = UserService.UserSearch(search);
-            if (list != null) return Request.CreateResponse(HttpStatusCode.OK, list);
-            else return Request.CreateResponse(HttpStatusCode.OK, "nothing");
-        }
-
+ 
     }
 }

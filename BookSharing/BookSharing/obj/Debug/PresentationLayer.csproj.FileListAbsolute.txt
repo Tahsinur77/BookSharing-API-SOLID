@@ -76,6 +76,7 @@ D:\11Semester\BookSharing-API-SOLID\BookSharing\BookSharing\bin\DAL.pdb
 D:\11Semester\BookSharing-API-SOLID\BookSharing\BookSharing\bin\DAL.dll.config
 D:\11Semester\BookSharing-API-SOLID\BookSharing\BookSharing\bin\AutoMapper.xml
 D:\11Semester\BookSharing-API-SOLID\BookSharing\BookSharing\bin\EntityFramework.xml
+<<<<<<< HEAD
 P:\BookSharing-API-SOLID\BookSharing\BookSharing\bin\BookSharing.dll.config
 P:\BookSharing-API-SOLID\BookSharing\BookSharing\bin\BookSharing.dll
 P:\BookSharing-API-SOLID\BookSharing\BookSharing\bin\BookSharing.pdb
@@ -153,3 +154,83 @@ P:\BookSharing-API-SOLID\BookSharing\BookSharing\obj\Debug\PresentationLayer.csp
 P:\BookSharing-API-SOLID\BookSharing\BookSharing\obj\Debug\PresentationLayer.csproj.CopyComplete
 P:\BookSharing-API-SOLID\BookSharing\BookSharing\obj\Debug\BookSharing.dll
 P:\BookSharing-API-SOLID\BookSharing\BookSharing\obj\Debug\BookSharing.pdb
+=======
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\BookSharing.dll.config
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\BookSharing.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\BookSharing.pdb
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\csc.exe
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\csc.exe.config
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\csc.rsp
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\csi.exe
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\csi.exe.config
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\csi.rsp
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\Microsoft.Managed.Core.targets
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.AppContext.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.Collections.Immutable.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.Console.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.Globalization.Calendars.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.IO.Compression.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.IO.FileSystem.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.Net.Http.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.Net.Sockets.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.Reflection.Metadata.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.ValueTuple.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.Xml.XmlDocument.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.Xml.XPath.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\vbc.exe
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\vbc.exe.config
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\vbc.rsp
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\VBCSCompiler.exe
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\roslyn\VBCSCompiler.exe.config
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\BLL.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\ELL.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\Newtonsoft.Json.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\System.Net.Http.Formatting.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\System.Web.Http.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\System.Web.Http.WebHost.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\DAL.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\AutoMapper.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\EntityFramework.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\BLL.pdb
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\ELL.pdb
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\Newtonsoft.Json.xml
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\System.Net.Http.Formatting.xml
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\System.Web.Http.xml
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\System.Web.Http.WebHost.xml
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\DAL.pdb
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\DAL.dll.config
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\AutoMapper.xml
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\bin\EntityFramework.xml
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\obj\Debug\PresentationLayer.csproj.AssemblyReference.cache
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\obj\Debug\PresentationLayer.csproj.CoreCompileInputs.cache
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\obj\Debug\PresentationLayer.csproj.CopyComplete
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\obj\Debug\BookSharing.dll
+F:\ASP final project\BookSharing-API-SOLID\BookSharing\BookSharing\obj\Debug\BookSharing.pdb
+>>>>>>> dac6b5cc234ab10dba87f1959a501d4442a1b44b

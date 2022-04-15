@@ -61,6 +61,7 @@
     <Compile Include="Codefirst\Database\User.cs" />
     <Compile Include="DataAccessFactory.cs" />
     <Compile Include="Interface\IRepository.cs" />
+    <Compile Include="Interface\ISearch.cs" />
     <Compile Include="Migrations\202204120432004_ForeignKey.cs" />
     <Compile Include="Migrations\202204120432004_ForeignKey.Designer.cs">
       <DependentUpon>202204120432004_ForeignKey.cs</DependentUpon>
@@ -99,6 +100,8 @@
     <Compile Include="Repo\BookDetailRepo.cs" />
     <Compile Include="Repo\BookRepo.cs" />
     <Compile Include="Repo\OrderRepo.cs" />
+    <Compile Include="Repo\SellerDetailsRepo.cs" />
+    <Compile Include="Repo\ShopChangeRquestRepo.cs" />
     <Compile Include="Repo\ShopRepo.cs" />
     <Compile Include="Repo\UserRepo.cs" />
   </ItemGroup>
