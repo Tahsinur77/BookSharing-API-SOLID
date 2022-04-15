@@ -34,3 +34,4 @@ P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csproj.GenerateResource.c
 P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csproj.CopyComplete
 P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.dll
 P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.pdb
+P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csprojAssemblyReference.cache

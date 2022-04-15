@@ -20,6 +20,10 @@ namespace DAL
         {
             return new AuthorRepo(db);
         }
+        public static IRepository<BookDetails, int> BookDetailDataAccess()
+        {
+            return new BookDetailRepo(db);
+        }
         public static IRepository<Book, int> BookDataAccess()
         {
             return new BookRepo(db);

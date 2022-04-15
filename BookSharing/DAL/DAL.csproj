@@ -96,6 +96,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repo\AuthorRepo.cs" />
+    <Compile Include="Repo\BookDetailRepo.cs" />
     <Compile Include="Repo\BookRepo.cs" />
     <Compile Include="Repo\OrderRepo.cs" />
     <Compile Include="Repo\ShopRepo.cs" />

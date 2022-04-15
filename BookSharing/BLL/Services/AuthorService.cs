@@ -12,9 +12,9 @@ namespace BLL.Services
 {
     public class AuthorService
     {
-        public static AuthorModel Get(int userId)
+        public static AuthorModel Get(int authorId)
         {
-            var author = DataAccessFactory.AuthorDataAccess().Get(userId);
+            var author = DataAccessFactory.AuthorDataAccess().Get(authorId);
 
             var config = new MapperConfiguration(cfg => cfg.CreateMap<Author, AuthorModel>());
             var mapper = new Mapper(config);
