@@ -32,6 +32,13 @@ namespace BookSharing.Controllers
             var list = AuthorService.Get();
             return Request.CreateResponse(HttpStatusCode.OK, list);
         }
+        [Route("api/author/get2")]
+        [HttpGet]
+        public HttpResponseMessage Get2()
+        {
+            var list = AuthorService.Get();
+            return Request.CreateResponse(HttpStatusCode.OK, list);
+        }
 
         [Route("api/author/{id}")]
         [HttpGet]
