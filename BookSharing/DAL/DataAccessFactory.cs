@@ -33,5 +33,9 @@ namespace DAL
         {
             return new SellerDetailsRepo(db);
         }
+        public static IRepository<ShopChangeRequest, int> ShopChangeRequestDataAccess()
+        {
+            return new ShopChangeRquestRepo(db);
+        }
     }
 }
