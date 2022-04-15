@@ -8,47 +8,46 @@ using System.Threading.Tasks;
 
 namespace DAL.Repo
 {
-    public class AuthorRepo : IRepository<Author, int>
+    public class ShopChangeRquestRepo : IRepository<ShopChangeRequest, int>
     {
         private BookSharingContext db;
-        public AuthorRepo(BookSharingContext db)
+        public ShopChangeRquestRepo(BookSharingContext db)
         {
             this.db = db;
         }
-        public bool Add(Author obj)
+        public bool Add(ShopChangeRequest obj)
         {
-            db.Authors.Add(obj);
+            db.ShopChangeRequests.Add(obj);
             if (db.SaveChanges() != 0) return true;
             return false;
         }
 
         public bool Delete(int id)
         {
-            var n = db.Authors.FirstOrDefault(x => x.Id == id);
-            db.Authors.Remove(n);
+            var n = db.ShopChangeRequests.FirstOrDefault(x => x.Id == id);
+            db.ShopChangeRequests.Remove(n);
 
             if (db.SaveChanges() != 0) return true;
             return false;
         }
 
-        public bool Edit(Author obj)
+        public bool Edit(ShopChangeRequest obj)
         {
-            var old = db.Authors.FirstOrDefault(x => x.Id == obj.Id);
+            var old = db.ShopChangeRequests.FirstOrDefault(x => x.Id == obj.Id);
             db.Entry(old).CurrentValues.SetValues(obj);
 
             if (db.SaveChanges() != 0) return true;
             return false;
         }
 
-        public Author Get(int id)
+        public ShopChangeRequest Get(int id)
         {
-            var result = db.Authors.FirstOrDefault(x => x.Id == id);
-            return result;
+            return db.ShopChangeRequests.FirstOrDefault(x => x.Id == id);
         }
 
-        public List<Author> Get()
+        public List<ShopChangeRequest> Get()
         {
-            return db.Authors.ToList();
+            return db.ShopChangeRequests.ToList();
         }
     }
 }

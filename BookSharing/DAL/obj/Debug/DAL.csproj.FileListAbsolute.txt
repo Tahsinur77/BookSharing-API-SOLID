@@ -17,6 +17,26 @@ D:\11Semester\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.Ord
 D:\11Semester\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.sell.resources
 D:\11Semester\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.sellerDetails.resources
 D:\11Semester\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.tokenAccess.resources
+<<<<<<< HEAD
+P:\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\DAL.dll.config
+P:\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\DAL.dll
+P:\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\DAL.pdb
+P:\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\EntityFramework.dll
+P:\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\EntityFramework.xml
+P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.ForeignKey.resources
+P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.UpdateFk1.resources
+P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.shopChangeReq.resources
+P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.Order.resources
+P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.OrderUpdate.resources
+P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.sell.resources
+P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.sellerDetails.resources
+P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.tokenAccess.resources
+P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csproj.CopyComplete
+P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.dll
+P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.pdb
+P:\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+=======
 F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\DAL.dll.config
 F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\DAL.dll
 F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\DAL.pdb
@@ -36,6 +56,7 @@ F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csproj.
 F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csproj.CopyComplete
 F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.dll
 F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.pdb
+<<<<<<< HEAD
 H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\DAL.dll.config
 H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\DAL.dll
 H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\bin\Debug\DAL.pdb
@@ -55,3 +76,6 @@ H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing
 H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csproj.CopyComplete
 H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.dll
 H:\AIUB Semester 11\Advance .NET\Final\Project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.pdb
+=======
+>>>>>>> dac6b5cc234ab10dba87f1959a501d4442a1b44b
+>>>>>>> 4be533c1298eb80aee923615904d5ad6242c264c

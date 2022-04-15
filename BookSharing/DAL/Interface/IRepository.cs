@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DAL.Codefirst.Database;
 
 namespace DAL.Interface
 {
@@ -13,5 +14,7 @@ namespace DAL.Interface
         List<T> Get();
         bool Edit(T obj);
         bool Delete(ID id);
+        //object Add(BookDetails author);
+        //object Add(Author user);
     }
 }
