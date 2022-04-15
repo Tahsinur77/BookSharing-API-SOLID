@@ -28,9 +28,20 @@ namespace DAL
         {
             return new OrderRepo(db);
         }
+
         public static IRepository<Shop, int> ShopDataAccess()
         {
             return new ShopRepo(db);
+        }
+
+        public static IRepository<SellerDetails, int> SellerDetailsDataAccess()
+        {
+            return new SellerDetailsRepo(db);
+        }
+
+        public static ISearch<User> UserDataSearch()
+        {
+            return new UserRepo(db);
         }
     }
 }

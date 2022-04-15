@@ -44,6 +44,8 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Entites\BookModel.cs" />
+    <Compile Include="Entites\SearchModel.cs" />
+    <Compile Include="Entites\SellerDetailsModel.cs" />
     <Compile Include="Entites\ShopModel.cs" />
     <Compile Include="Entites\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -17,37 +17,27 @@ namespace DAL.Repo
         }
         public bool Add(Book obj)
         {
-            db.Books.Add(obj);
-            if (db.SaveChanges() != 0) return true;
-            return false;
+            throw new NotImplementedException();
         }
 
         public bool Delete(int id)
         {
-            var n = db.Books.FirstOrDefault(x => x.Id == id);
-            db.Books.Remove(n);
-
-            if (db.SaveChanges() != 0) return true;
-            return false;
+            throw new NotImplementedException();
         }
 
         public bool Edit(Book obj)
         {
-            var old = db.Books.FirstOrDefault(x => x.Id == obj.Id);
-            db.Entry(old).CurrentValues.SetValues(obj);
-
-            if (db.SaveChanges() != 0) return true;
-            return false;
+            throw new NotImplementedException();
         }
 
         public Book Get(int id)
         {
-            return db.Books.FirstOrDefault(x => x.Id == id);
+            throw new NotImplementedException();
         }
 
         public List<Book> Get()
         {
-            return db.Books.ToList();
+            throw new NotImplementedException();
         }
     }
 }
