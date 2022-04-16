@@ -58,5 +58,16 @@ namespace BLL.Services
             var flag = DataAccessFactory.SellDataAccess().Delete(id);
             return flag;
         }
+        public static List<SellModel> SellSearch(SearchModel search)
+        {
+
+            var sellList = DataAccessFactory.SellDataSearch().Search(search.Search);
+
+            var config = new MapperConfiguration(cfg => cfg.CreateMap<Sell, SellModel>());
+            var mapper = new Mapper(config);
+            var sellModel = mapper.Map<List<SellModel>>(sellList);
+
+            return sellModel;
+        }
     }
 }

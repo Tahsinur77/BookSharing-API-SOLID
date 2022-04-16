@@ -62,5 +62,13 @@ namespace BookSharing.Controllers
             if (flag) return Request.CreateResponse(HttpStatusCode.OK, "Order Deleted");
             else return Request.CreateResponse(HttpStatusCode.OK, "Sorry! Order Can't be Deleted.");
         }
+        [Route("api/sell/search")]
+        [HttpPost]
+        public HttpResponseMessage Search(SearchModel search)
+        {
+            var list = SellService.SellSearch(search);
+            if (list != null) return Request.CreateResponse(HttpStatusCode.OK, list);
+            else return Request.CreateResponse(HttpStatusCode.OK, "nothing");
+        }
     }
 }

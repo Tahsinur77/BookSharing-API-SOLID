@@ -50,5 +50,9 @@ namespace DAL
         {
             return new UserRepo(db);
         }
+        public static ISearch<Sell> SellDataSearch()
+        {
+            return new SellRepo(db);
+        }
     }
 }

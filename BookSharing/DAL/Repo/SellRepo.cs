@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repo
 {
-    public class SellRepo : IRepository<Sell, int>
+    public class SellRepo : IRepository<Sell, int>,ISearch<Sell>
     {
         private BookSharingContext db;
         public SellRepo(BookSharingContext db)
@@ -48,6 +48,53 @@ namespace DAL.Repo
         public List<Sell> Get()
         {
             return db.Sells.ToList();
+        }
+
+        public List<Sell> Search(Dictionary<string, dynamic> search)
+        {
+            // Search by OrderId or Status 
+            if (search.Count == 1)
+            {
+                string key = Convert.ToString(search.ElementAt(0).Key);
+               
+                var list = new List<Sell>();
+                if (key == "OrderId")
+                {
+                    int value = Convert.ToInt32(search.ElementAt(0).Value);
+                    list = (from c in db.Sells
+                            where c.OrderId.Equals(value)
+                            select c).ToList();
+                }
+                else if (key == "Status")
+                {
+                    string value = Convert.ToString(search.ElementAt(0).Value);
+                    list = (from c in db.Sells
+                            where c.Status.Equals(value)
+                            select c).ToList();
+                }
+                return list;
+            }
+            //Search by OrderId and Status both
+            else if (search.Count == 2)
+            {
+                string key1 = Convert.ToString(search.ElementAt(0).Key);
+                int value1 = Convert.ToInt32(search.ElementAt(0).Value);
+                string key2 = Convert.ToString(search.ElementAt(1).Key);
+                string value2 = Convert.ToString(search.ElementAt(1).Value);
+
+                var list = new List<Sell>();
+                if (key1 == "OrderId" && key2 == "Status")
+                {
+                    list = (from c in db.Sells
+                            where c.OrderId.Equals(value1) &&
+                            c.Status.Equals(value2)
+                            select c).ToList();
+                }
+                return list;
+            }
+      
+            else
+                return null;
         }
     }
 }
