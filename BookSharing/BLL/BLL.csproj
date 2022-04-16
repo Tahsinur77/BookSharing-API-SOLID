@@ -50,6 +50,7 @@
     <Compile Include="Services\BookService.cs" />
     <Compile Include="Services\OrderService.cs" />
     <Compile Include="Services\SellerDetailsService.cs" />
+    <Compile Include="Services\SellService.cs" />
     <Compile Include="Services\ShopChangeRequestService.cs" />
     <Compile Include="Services\ShopService.cs" />
     <Compile Include="Services\UserService.cs" />

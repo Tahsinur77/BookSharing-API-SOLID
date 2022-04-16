@@ -42,6 +42,10 @@ namespace DAL
         {
             return new ShopChangeRquestRepo(db);
         }
+        public static IRepository<Sell, int> SellDataAccess()
+        {
+            return new SellRepo(db);
+        }
         public static ISearch<User> UserDataSearch()
         {
             return new UserRepo(db);

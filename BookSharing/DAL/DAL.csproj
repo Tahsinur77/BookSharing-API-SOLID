@@ -100,6 +100,7 @@
     <Compile Include="Repo\BookRepo.cs" />
     <Compile Include="Repo\OrderRepo.cs" />
     <Compile Include="Repo\SellerDetailsRepo.cs" />
+    <Compile Include="Repo\SellRepo.cs" />
     <Compile Include="Repo\ShopChangeRquestRepo.cs" />
     <Compile Include="Repo\ShopRepo.cs" />
     <Compile Include="Repo\UserRepo.cs" />

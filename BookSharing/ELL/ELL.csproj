@@ -48,6 +48,7 @@
     <Compile Include="Entites\OrderModel.cs" />
     <Compile Include="Entites\SearchModel.cs" />
     <Compile Include="Entites\SellerDetailsModel.cs" />
+    <Compile Include="Entites\SellModel.cs" />
     <Compile Include="Entites\ShopChangeRequestModel.cs" />
     <Compile Include="Entites\ShopModel.cs" />
     <Compile Include="Entites\UserModel.cs" />
