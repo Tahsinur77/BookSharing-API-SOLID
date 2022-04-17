@@ -69,5 +69,13 @@ namespace BookSharing.Controllers
             if (flag) return Request.CreateResponse(HttpStatusCode.OK, "Deleted");
             else return Request.CreateResponse(HttpStatusCode.OK, "Not Delete");
         }
+        [Route("api/Author/Search")]
+        [HttpPost]
+        public HttpResponseMessage Search(SearchModel search)
+        {
+            var list = AuthorService.AuthorSearch(search);
+            if (list != null) return Request.CreateResponse(HttpStatusCode.OK, list);
+            else return Request.CreateResponse(HttpStatusCode.OK, "nothing");
+        }
     }
 }

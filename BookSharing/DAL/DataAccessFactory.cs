@@ -20,13 +20,14 @@ namespace DAL
         {
             return new AuthorRepo(db);
         }
+
         public static IRepository<Book, int> BookDataAccess()
         {
             return new BookRepo(db);
         }
-        public static IRepository<Book, int> BookDetailDataAccess()
+        public static IRepository<BookDetails, int> BookDetailDataAccess()
         {
-            return new BookRepo(db);
+            return new BookDetailRepo(db);
         }
         public static IRepository<Order, int> OrderDataAccess()
         {
@@ -65,6 +66,10 @@ namespace DAL
         public static ISearch<Book> BookSearch()
         {
             return new BookRepo(db);
+        }
+        public static ISearch<Author> AuthorDataSearch()
+        {
+            return new AuthorRepo(db);
         }
 
     }

@@ -20,13 +20,13 @@ namespace DAL.Codefirst.Database
         public int ShopId { get; set; }
         [Required]
         public string BookQuantity { get; set; }
-        [Required]
+        //[Required]
         [ForeignKey("BookId")]
         public virtual Book Book { get; set; }
-        [Required]
+        //[Required]
         [ForeignKey("ShopId")]
         public virtual Shop Shop { get; set; }
-        [Required]
+        //[Required]
         [ForeignKey("SellerId")]
         public virtual User User { get; set; }
     }

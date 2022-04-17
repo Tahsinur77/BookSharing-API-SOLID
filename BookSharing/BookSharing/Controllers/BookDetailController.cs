@@ -12,7 +12,7 @@ namespace BookSharing.Controllers
 {
     public class BookDetailController : ApiController
     {
-        /*[Route("api/BookDetail/add")]
+        [Route("api/BookDetail/add")]
         [HttpPost]
         public HttpResponseMessage Add(BookDetailModel bookDetail)
         {
@@ -24,7 +24,7 @@ namespace BookSharing.Controllers
                 else return Request.CreateResponse(HttpStatusCode.OK, "Not Added");
             }
             return Request.CreateResponse(HttpStatusCode.BadRequest, ModelState);
-        }*/
+        }
 
         [Route("api/BookDetail/list")]
         [HttpGet]
@@ -44,7 +44,7 @@ namespace BookSharing.Controllers
 
         [Route("api/BookDetail/edit")]
         [HttpPost]
-        /*public HttpResponseMessage Edit(BookDetailModel bookDetail)
+        public HttpResponseMessage Edit(BookDetailModel bookDetail)
         {
             if (ModelState.IsValid)
             {
@@ -54,7 +54,7 @@ namespace BookSharing.Controllers
             }
             return Request.CreateResponse(HttpStatusCode.BadRequest, ModelState);
         }
-        */
+
         [Route("api/BookDetail/delete/{id}")]
         [HttpDelete]
         public HttpResponseMessage Delete(int id)
