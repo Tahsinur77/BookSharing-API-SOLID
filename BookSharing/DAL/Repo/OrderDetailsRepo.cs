@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repo
 {
-    public class OrderDetailsRepo : IRepository<OrderDetails, int>
+    public class OrderDetailsRepo : IRepository<OrderDetails, int>,ITop<OrderDetails>
     {
         private BookSharingContext db;
         public OrderDetailsRepo(BookSharingContext db)
@@ -51,6 +51,14 @@ namespace DAL.Repo
         public List<OrderDetails> Get()
         {
             return db.OrderDetails.ToList();
+        }
+
+        public List<OrderDetails> GetTop()
+        {
+            var list = (from x in db.OrderDetails
+                        where x.Status.Equals("Approved")
+                        select x).ToList();
+            return list;
         }
     }
 }

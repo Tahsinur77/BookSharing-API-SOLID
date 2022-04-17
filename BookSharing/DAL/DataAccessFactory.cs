@@ -71,6 +71,10 @@ namespace DAL
         {
             return new AuthorRepo(db);
         }
+        public static ITop<OrderDetails> TopSellingReport()
+        {
+            return new OrderDetailsRepo(db);
+        }
 
     }
 }

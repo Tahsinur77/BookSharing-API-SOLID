@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repo
 {
-    public class SellRepo : IRepository<Sell, int>,ISearch<Sell>,ITop<OrderDetails>
+    public class SellRepo : IRepository<Sell, int>,ISearch<Sell>
     {
         private BookSharingContext db;
         public SellRepo(BookSharingContext db)
@@ -95,10 +95,6 @@ namespace DAL.Repo
             else
                 return null;
         }
-        public List<OrderDetails> GetTop()
-        {
-            var topList =  db.OrderDetails.ToList();
-            return topList;
-        }
+        
     }
 }

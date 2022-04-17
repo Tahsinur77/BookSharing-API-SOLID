@@ -59,5 +59,48 @@ namespace BLL.Services
             return flag;
         }
 
+        public static List<BookModel> GetTop()
+        {
+            var list = DataAccessFactory.TopSellingReport().GetTop();
+
+            Dictionary<int, int> calculation = new Dictionary<int, int>();
+            foreach(var cal in list)
+            {
+                int key = cal.BookId;
+                if (calculation.ContainsKey(key))
+                {
+                    calculation[key] += cal.Quantity;
+                }
+                else
+                {
+                    calculation.Add(key, cal.Quantity);
+                }
+            }
+
+            List<Book> topBooks = new List<Book>();
+            int check = 0;
+            foreach (var item in calculation.OrderByDescending(key => key.Value))
+            {
+                int x = item.Key;
+                var b = DataAccessFactory.BookDataAccess().Get(x);
+
+                topBooks.Add(b);
+                check++;
+
+                if(check == 5)
+                {
+                    break;
+                }
+            }
+
+            var config = new MapperConfiguration(cfg => cfg.CreateMap<Book, BookModel>());
+            var mapper = new Mapper(config);
+            var topBooksModel = mapper.Map<List<BookModel>>(topBooks);
+
+
+
+            return topBooksModel;
+        }
+
     }
 }
