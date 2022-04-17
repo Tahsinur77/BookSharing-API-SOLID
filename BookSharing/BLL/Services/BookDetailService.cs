@@ -32,15 +32,16 @@ namespace BLL.Services
             return bdetailModelList;
 
         }
+        /*
         public static bool Add(BookDetailModel bdetailModel)
         {
             var config = new MapperConfiguration(cfg => cfg.CreateMap<BookDetailModel, BookDetails>());
             var mapper = new Mapper(config);
             var bdetail = mapper.Map<BookDetails>(bdetailModel);
 
-            //var check = DataAccessFactory.AuthorDataAccess().Add(bdetail);
-            //return check;
-            return false;
+            var check = DataAccessFactory.BookDetailDataAccess().Add(bdetail);
+            return check;
+            //return false;
         }
 
         public static bool Edit(BookDetailModel bdetailModel)
@@ -49,10 +50,10 @@ namespace BLL.Services
             var mapper = new Mapper(config);
             var bdetail = mapper.Map<BookDetails>(bdetailModel);
 
-            //var flag = DataAccessFactory.AuthorDataAccess().Edit(bdetail);
-            //return flag;
-            return false;
-        }
+            var flag = DataAccessFactory.BookDetailDataAccess().Edit(bdetail);
+            return flag;
+            //return false;
+        }*/
         public static bool Delete(int id)
         {
             var flag = DataAccessFactory.BookDetailDataAccess().Delete(id);

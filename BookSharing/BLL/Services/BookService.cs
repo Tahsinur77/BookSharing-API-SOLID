@@ -56,5 +56,16 @@ namespace BLL.Services
             var flag = DataAccessFactory.BookDataAccess().Delete(id);
             return flag;
         }
+        public static List<BookModel> SearchBook(SearchModel search)
+        {
+
+            var bookList = DataAccessFactory.BookSearch().Search(search.Search);
+
+            var config = new MapperConfiguration(cfg => cfg.CreateMap<Book, BookModel>());
+            var mapper = new Mapper(config);
+            var bookModel = mapper.Map<List<BookModel>>(bookList);
+
+            return bookModel;
+        }
     }
 }

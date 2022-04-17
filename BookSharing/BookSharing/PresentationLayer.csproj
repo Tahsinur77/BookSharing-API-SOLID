@@ -87,7 +87,9 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AuthorController.cs" />
     <Compile Include="Controllers\BookController.cs" />
+    <Compile Include="Controllers\BookDetailController.cs" />
     <Compile Include="Controllers\OrderController.cs" />
+    <Compile Include="Controllers\OrderDetailsController.cs" />
     <Compile Include="Controllers\SellController.cs" />
     <Compile Include="Controllers\SellerDetailsController.cs" />
     <Compile Include="Controllers\ShopChangeRequestController.cs" />
