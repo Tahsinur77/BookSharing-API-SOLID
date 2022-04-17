@@ -20,13 +20,22 @@ namespace DAL
         {
             return new AuthorRepo(db);
         }
+
         public static IRepository<Book, int> BookDataAccess()
         {
             return new BookRepo(db);
         }
-        public static IRepository<Order,int> OrderDataAccess()
+        public static IRepository<BookDetails, int> BookDetailDataAccess()
+        {
+            return new BookDetailRepo(db);
+        }
+        public static IRepository<Order, int> OrderDataAccess()
         {
             return new OrderRepo(db);
+        }
+        public static IRepository<OrderDetails, int> OrderDetailsDataAccess()
+        {
+            return new OrderDetailsRepo(db);
         }
 
         public static IRepository<Shop, int> ShopDataAccess()
@@ -38,10 +47,30 @@ namespace DAL
         {
             return new SellerDetailsRepo(db);
         }
-
+        public static IRepository<ShopChangeRequest, int> ShopChangeRequestDataAccess()
+        {
+            return new ShopChangeRquestRepo(db);
+        }
+        public static IRepository<Sell, int> SellDataAccess()
+        {
+            return new SellRepo(db);
+        }
         public static ISearch<User> UserDataSearch()
         {
             return new UserRepo(db);
         }
+        public static ISearch<Sell> SellDataSearch()
+        {
+            return new SellRepo(db);
+        }
+        public static ISearch<Book> BookSearch()
+        {
+            return new BookRepo(db);
+        }
+        public static ISearch<Author> AuthorDataSearch()
+        {
+            return new AuthorRepo(db);
+        }
+
     }
 }

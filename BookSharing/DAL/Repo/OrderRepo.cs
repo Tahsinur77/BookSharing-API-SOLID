@@ -17,27 +17,40 @@ namespace DAL.Repo
         }
         public bool Add(Order obj)
         {
-            throw new NotImplementedException();
+            db.Orders.Add(obj);
+            if (db.SaveChanges() != 0) return true;
+            return false;
+            
         }
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            var od = db.Orders.FirstOrDefault(x => x.Id == id);
+            db.Orders.Remove(od);
+
+            if (db.SaveChanges() != 0) return true;
+            return false;
+            
         }
 
         public bool Edit(Order obj)
         {
-            throw new NotImplementedException();
+            var oe = db.Orders.FirstOrDefault(x => x.Id == obj.Id);
+            db.Entry(oe).CurrentValues.SetValues(obj);
+
+            if (db.SaveChanges() != 0) return true;
+            return false;
+
         }
 
         public Order Get(int id)
         {
-            throw new NotImplementedException();
+            return db.Orders.FirstOrDefault(x => x.Id == id);
         }
 
         public List<Order> Get()
         {
-            throw new NotImplementedException();
+            return db.Orders.ToList();
         }
     }
 }

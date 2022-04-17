@@ -36,3 +36,4 @@ F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csproj.
 F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.csproj.CopyComplete
 F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.dll
 F:\ASP final project\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.pdb
+D:\11Semester\BookSharing-API-SOLID\BookSharing\DAL\obj\Debug\DAL.Migrations.updateInBookDetails.resources

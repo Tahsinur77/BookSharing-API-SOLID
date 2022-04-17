@@ -66,7 +66,7 @@ namespace BLL.Services
             var userModel = mapper.Map<List<UserModel>>(userList);
 
             return userModel;
-        } 
+        }
 
     }
 }

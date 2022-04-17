@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repo
 {
-    public class UserRepo : IRepository<User, int>,ISearch<User>
+    public class UserRepo : IRepository<User, int>, ISearch<User>
     {
         private BookSharingContext db;
         public UserRepo(BookSharingContext db)
@@ -56,7 +56,7 @@ namespace DAL.Repo
             {
                 string key = Convert.ToString(search.ElementAt(0).Key);
                 string value = Convert.ToString(search.ElementAt(0).Value);
-               
+
                 var list = new List<User>();
                 if (key == "Name")
                 {
@@ -64,7 +64,7 @@ namespace DAL.Repo
                             where c.Name.Equals(value)
                             select c).ToList();
                 }
-                else if(key == "Email")
+                else if (key == "Email")
                 {
                     list = (from c in db.Users
                             where c.Email.Equals(value)
@@ -78,7 +78,7 @@ namespace DAL.Repo
                 }
                 return list;
             }
-            else if(search.Count == 2)
+            else if (search.Count == 2)
             {
                 string key1 = Convert.ToString(search.ElementAt(0).Key);
                 string value1 = Convert.ToString(search.ElementAt(0).Value);
@@ -89,7 +89,7 @@ namespace DAL.Repo
                 if (key1 == "Name" && key2 == "Email")
                 {
                     list = (from c in db.Users
-                            where c.Name.Equals(value1) && 
+                            where c.Name.Equals(value1) &&
                             c.Email.Equals(value2)
                             select c).ToList();
                 }
@@ -109,7 +109,7 @@ namespace DAL.Repo
                 }
                 return list;
             }
-            else if(search.Count == 3)
+            else if (search.Count == 3)
             {
                 string key1 = Convert.ToString(search.ElementAt(0).Key);
                 string value1 = Convert.ToString(search.ElementAt(0).Value);

@@ -9,4 +9,3 @@ F:\ASP final project\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.csproj.
 F:\ASP final project\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.csproj.CoreCompileInputs.cache
 F:\ASP final project\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.dll
 F:\ASP final project\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.pdb
-D:\11Semester\BookSharing-API-SOLID\BookSharing\ELL\obj\Debug\ELL.csproj.AssemblyReference.cache
